@@ -65,6 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_MatrizAula66", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_MatrizAula67", "Exercicio_MatrizAula67\Exercicio_MatrizAula67.csproj", "{E126BBBD-D86A-433B-88A6-822DAEDBBE40}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Certificado_LogicaProgramacaoCSharp", "Certificado_LogicaProgramacaoCSharp", "{D4EC1C32-15B3-4A1F-ADED-9C597626F9EA}"
+	ProjectSection(SolutionItems) = preProject
+		..\UC-635d9780-3ec1-43e0-983f-139108f1d1bf.jpg = ..\UC-635d9780-3ec1-43e0-983f-139108f1d1bf.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
