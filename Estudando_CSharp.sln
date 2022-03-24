@@ -55,13 +55,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_VetoresAula58", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_VetoresAula59", "Exercicio_VetoresAula59\Exercicio_VetoresAula59.csproj", "{ADF379E8-A1B8-4B70-A4DF-65E21B50FAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrtutura_Foreach", "Estrtutura_Foreach\Estrtutura_Foreach.csproj", "{0F300169-171F-42F8-AF9D-57F99BA5A1FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrtutura_Foreach", "Estrtutura_Foreach\Estrtutura_Foreach.csproj", "{0F300169-171F-42F8-AF9D-57F99BA5A1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{11E96214-F81D-43B9-9FDA-47A142F5C1C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrizes", "Matrizes\Matrizes.csproj", "{11E96214-F81D-43B9-9FDA-47A142F5C1C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Vetores01", "Exercicio_Vetores01\Exercicio_Vetores01.csproj", "{E001D6FD-E85D-4FBF-84FE-1E509685011A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_Vetores01", "Exercicio_Vetores01\Exercicio_Vetores01.csproj", "{E001D6FD-E85D-4FBF-84FE-1E509685011A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_MatrizAula66", "Exercicio_MatrizAula66\Exercicio_MatrizAula66.csproj", "{0741007D-AFC8-455F-85AD-C41BD54B650F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_MatrizAula66", "Exercicio_MatrizAula66\Exercicio_MatrizAula66.csproj", "{0741007D-AFC8-455F-85AD-C41BD54B650F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_MatrizAula67", "Exercicio_MatrizAula67\Exercicio_MatrizAula67.csproj", "{E126BBBD-D86A-433B-88A6-822DAEDBBE40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{0741007D-AFC8-455F-85AD-C41BD54B650F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0741007D-AFC8-455F-85AD-C41BD54B650F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0741007D-AFC8-455F-85AD-C41BD54B650F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E126BBBD-D86A-433B-88A6-822DAEDBBE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E126BBBD-D86A-433B-88A6-822DAEDBBE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E126BBBD-D86A-433B-88A6-822DAEDBBE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E126BBBD-D86A-433B-88A6-822DAEDBBE40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
