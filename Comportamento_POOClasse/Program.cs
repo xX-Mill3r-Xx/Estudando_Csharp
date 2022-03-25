@@ -81,7 +81,6 @@ namespace Comportamento_POOClasse
             #region Calculos das areas dos triangulos X e Y
 
             double areaX = x.CalcularArea();
-
             double areaY = y.CalcularArea();
 
             #region Codigo Obsoleto
