@@ -88,6 +88,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_POOAplicado01", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectEToString", "ObjectEToString\ObjectEToString.csproj", "{ABAF3BC5-E97E-43C0-BB19-BFCF86F81957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Vetores02", "Exercicio_Vetores02\Exercicio_Vetores02.csproj", "{0666FA76-CBBB-4E41-804B-06796D20604D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,6 +248,10 @@ Global
 		{ABAF3BC5-E97E-43C0-BB19-BFCF86F81957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAF3BC5-E97E-43C0-BB19-BFCF86F81957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAF3BC5-E97E-43C0-BB19-BFCF86F81957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0666FA76-CBBB-4E41-804B-06796D20604D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0666FA76-CBBB-4E41-804B-06796D20604D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0666FA76-CBBB-4E41-804B-06796D20604D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0666FA76-CBBB-4E41-804B-06796D20604D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -289,6 +295,7 @@ Global
 		{32B8070C-FBA1-4DF1-B941-7B86F6F9C9E5} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
 		{2AC13DA1-5357-47A1-A8C4-AFB5209D6E1C} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
 		{ABAF3BC5-E97E-43C0-BB19-BFCF86F81957} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
+		{0666FA76-CBBB-4E41-804B-06796D20604D} = {64085CBF-2292-4973-88EB-FC32E66B9B2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F56DB581-6B57-4D3A-8EB3-74EB41D3C55B}
