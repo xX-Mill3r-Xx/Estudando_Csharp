@@ -80,11 +80,9 @@ namespace Comportamento_POOClasse
 
             #region Calculos das areas dos triangulos X e Y
 
-            double p = (x.A + x.B + x.C) / 2.0;
-            double areaX = Math.Sqrt(p * (p - x.A)*(p - x.B)*(p - x.C));
+            double areaX = x.CalcularArea();
 
-            p = (y.A + y.B + y.C) / 2.0;
-            double areaY = Math.Sqrt(p * (p - y.A) * (p - y.B) * (p - y.C));
+            double areaY = y.CalcularArea();
 
             #region Codigo Obsoleto
             //double pX = (XA + XB + XC) / 2.0;
