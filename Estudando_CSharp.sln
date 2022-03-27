@@ -104,6 +104,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Construtores", "Construtore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sobrecarga", "Sobrecarga\Sobrecarga.csproj", "{01B5DE49-57B9-445B-99FD-01311DEC028A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalavraThis", "PalavraThis\PalavraThis.csproj", "{850C2C07-28C1-4F93-95F1-152FA83ACD12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -294,6 +296,10 @@ Global
 		{01B5DE49-57B9-445B-99FD-01311DEC028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B5DE49-57B9-445B-99FD-01311DEC028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B5DE49-57B9-445B-99FD-01311DEC028A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850C2C07-28C1-4F93-95F1-152FA83ACD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850C2C07-28C1-4F93-95F1-152FA83ACD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850C2C07-28C1-4F93-95F1-152FA83ACD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850C2C07-28C1-4F93-95F1-152FA83ACD12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -345,6 +351,7 @@ Global
 		{64F8E239-C173-425C-841C-AA5018900003} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
 		{D5F5EB59-4A39-4353-82A1-861FDBD1154E} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
 		{01B5DE49-57B9-445B-99FD-01311DEC028A} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
+		{850C2C07-28C1-4F93-95F1-152FA83ACD12} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F56DB581-6B57-4D3A-8EB3-74EB41D3C55B}

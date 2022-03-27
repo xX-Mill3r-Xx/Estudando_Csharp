@@ -60,6 +60,19 @@ namespace Construtores
               Com o intuito de evitar a existencia de produtos sem nome e sem preço, é possivel fazer com que seja "Obrigatorio" a inicialização destes valores.
              */
 
+            /*
+             Sintaxe opcional para iniciar valores.
+            Exemplo:
+
+            Produto p = new Produto()
+            {
+                   Nome = "TV",
+                   Preco = 900.00,
+                   Quantidade = 0
+            };
+
+             */
+
         }
     }
 }
