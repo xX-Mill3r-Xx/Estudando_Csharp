@@ -25,41 +25,67 @@ namespace Encapsulamento
             _quantity = quantity;
         }
 
-        #region Geters AND Seters da classe
-        //##################################################################################################################
-        /*Para implementar um acessador para que a classe program tenha acesso ao atributo nome, fazemos da seguinte maneira;*/
-        public string GetName()
-        {
-            return _name;
-        }
+        #region Acessadres - Properts
 
-        /*Para implementar um metodo para definir o nome de um atributo usamos o Set e implementamos da seguinte maneira;*/
-        public void SetName(string name)
+        public string Name
         {
-            /*uma regra criada para controlar este metodo;
-             Só sera possivel alterar o nome do produto se:
-             - Não for nulo
-             - O tamanho do nome for maior que 1 caracter;*/
-            if(name != null && name.Length > 1)
-            {
-                _name = name;
+            get { return _name; }
+            set 
+            { 
+                if (value != null && value.Length > 1) 
+                {
+                    _name = value;
+                }; 
             }
         }
 
-        /*
-         Para o preço e a quantidade, criamos apenas o Metodo Get destes atributos, o que seguinifica que voce apena pode
-        obter os dados e não definir.
-         */
-
-        public double GetPrice()
+        public double Price
         {
-            return _price;
+            get { return _price; }
         }
 
-        public int GetQuantity()
+        public int Quantity
         {
-            return _quantity;
+            get { return _quantity; }
         }
+
+        #endregion
+
+        #region Geters AND Seters da classe
+        //##################################################################################################################
+        /*Para implementar um acessador para que a classe program tenha acesso ao atributo nome, fazemos da seguinte maneira;*/
+        //public string GetName()
+        //{
+        //    return _name;
+        //}
+
+        ///*Para implementar um metodo para definir o nome de um atributo usamos o Set e implementamos da seguinte maneira;*/
+        //public void SetName(string name)
+        //{
+        //    /*uma regra criada para controlar este metodo;
+        //     Só sera possivel alterar o nome do produto se:
+        //     - Não for nulo
+        //     - O tamanho do nome for maior que 1 caracter;*/
+        //    if(name != null && name.Length > 1)
+        //    {
+        //        _name = name;
+        //    }
+        //}
+
+        ///*
+        // Para o preço e a quantidade, criamos apenas o Metodo Get destes atributos, o que seguinifica que voce apena pode
+        //obter os dados e não definir.
+        // */
+
+        //public double GetPrice()
+        //{
+        //    return _price;
+        //}
+
+        //public int GetQuantity()
+        //{
+        //    return _quantity;
+        //}
         //##################################################################################################################
         #endregion
 

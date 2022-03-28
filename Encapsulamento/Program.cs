@@ -27,11 +27,11 @@ namespace Encapsulamento
 
             Produto p = new Produto("TV", 500.00,10);
 
-            p.SetName("Tv4K"); // para mudar o atributo nome usando o Set que acabamos de criar na classe produto;
+            p.Name = "Tv4K"; // para mudar o atributo nome usando o Set que acabamos de criar na classe produto;
 
-            Console.WriteLine(p.GetName()); // para exibir o nome do produto usando o acessador que criamos na classe produto;
-            Console.WriteLine(p.GetPrice()); // imprime o preço do produto;
-            Console.WriteLine(p.GetQuantity()); // imprime a quantidade do produto;
+            Console.WriteLine(p.Name); // para exibir o nome do produto usando o acessador que criamos na classe produto;
+            Console.WriteLine(p.Price); // imprime o preço do produto;
+            Console.WriteLine(p.Quantity); // imprime a quantidade do produto;
             Console.WriteLine(p);
 
             Console.ReadLine();
