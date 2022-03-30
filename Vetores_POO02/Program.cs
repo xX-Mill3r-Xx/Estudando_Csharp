@@ -30,12 +30,14 @@ namespace Vetores_POO02
                 Console.Write("Entre com o preço do Produto a ser Add: ");
                 double value = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 priceProduct[i] = p.AddPrice(value);
+                Console.WriteLine();
             }
             double sum = 0.0;
             for(int i = 0; i< productsNames; i++)
             {
                 Console.WriteLine($"Nome do produto: {nameProduct[i]}, Valor R${priceProduct[i].ToString("F2", CultureInfo.InvariantCulture)}");
                 sum += priceProduct[i];
+                Console.WriteLine();
             }
             Console.WriteLine();
             double media = sum / productsNames;
