@@ -25,7 +25,7 @@ namespace Exercicio_Vetores_POO
 
             Console.Write("Quantos quartos serão alugados? ");
             int n = int.Parse(Console.ReadLine());
-            int[] quartos = new int[n];
+            int[] quartos = new int[10];
             string[] study = new string[n];
             string[] mail = new string[n];
             Console.WriteLine();
