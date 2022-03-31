@@ -134,6 +134,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modificadores_Params_Ref_Ou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas_02", "Listas_02\Listas_02.csproj", "{E51BD602-205B-42D0-A561-587FBF753068}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_List01", "Exercicio_List01\Exercicio_List01.csproj", "{F5EA7C65-0FE1-4B81-B077-B805B5B9B6EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -372,6 +374,10 @@ Global
 		{E51BD602-205B-42D0-A561-587FBF753068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E51BD602-205B-42D0-A561-587FBF753068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E51BD602-205B-42D0-A561-587FBF753068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EA7C65-0FE1-4B81-B077-B805B5B9B6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EA7C65-0FE1-4B81-B077-B805B5B9B6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EA7C65-0FE1-4B81-B077-B805B5B9B6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EA7C65-0FE1-4B81-B077-B805B5B9B6EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -438,6 +444,7 @@ Global
 		{A579AEBB-63E7-4358-A721-97ADF23C78FF} = {78A3ECC5-B137-4C0F-98CC-CACB9429D564}
 		{63F04478-1B5C-42A3-BFDC-859473FF914B} = {78A3ECC5-B137-4C0F-98CC-CACB9429D564}
 		{E51BD602-205B-42D0-A561-587FBF753068} = {78A3ECC5-B137-4C0F-98CC-CACB9429D564}
+		{F5EA7C65-0FE1-4B81-B077-B805B5B9B6EF} = {78A3ECC5-B137-4C0F-98CC-CACB9429D564}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F56DB581-6B57-4D3A-8EB3-74EB41D3C55B}
