@@ -82,6 +82,16 @@ namespace Heranca
                 Console.WriteLine("Update!");
             }
 
+            Accont acCont = new Accont(1001, "Alex", 500.00);
+            Accont acCont2 = new SavingsAccount(1002, "Anna", 500.00, 0.01);
+
+            acCont.WithDraw(300.00);
+            acCont2.WithDraw(300.00);
+
+            Console.WriteLine(acCont.Balance);
+            Console.WriteLine(acCont2.Balance);
+
+            Console.ReadLine();
         }
     }
 }

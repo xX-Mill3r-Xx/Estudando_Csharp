@@ -24,9 +24,9 @@ namespace Heranca.Entities
             Balance += amount;
         }
 
-        public void WithDraw(double amount)
+        public virtual void WithDraw(double amount)
         {
-            Balance -= amount;
+            Balance -= amount + 5.0;
         }
     }
 }
