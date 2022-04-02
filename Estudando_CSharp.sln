@@ -164,9 +164,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum_enumeracoes", "Enum_en
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composicao", "Composicao\Composicao.csproj", "{8E33E8CF-A977-4E5A-B4DF-30564FF9AD1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilders", "StringBuilders\StringBuilders.csproj", "{BC03D4D8-242A-444B-B388-EB1985BE9E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilders", "StringBuilders\StringBuilders.csproj", "{BC03D4D8-242A-444B-B388-EB1985BE9E50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_FixacaoEnuns", "Exercicio_FixacaoEnuns\Exercicio_FixacaoEnuns.csproj", "{6D4ED02D-8B33-40EC-9649-3D31E2CF7A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_FixacaoEnuns", "Exercicio_FixacaoEnuns\Exercicio_FixacaoEnuns.csproj", "{6D4ED02D-8B33-40EC-9649-3D31E2CF7A62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heranca_Polimorfismo", "Heranca_Polimorfismo", "{95FC4B36-C4B9-460C-88B2-E220106092A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.csproj", "{F6292849-979F-488F-B698-9AFF7CB8E45C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -466,6 +470,10 @@ Global
 		{6D4ED02D-8B33-40EC-9649-3D31E2CF7A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4ED02D-8B33-40EC-9649-3D31E2CF7A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4ED02D-8B33-40EC-9649-3D31E2CF7A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6292849-979F-488F-B698-9AFF7CB8E45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6292849-979F-488F-B698-9AFF7CB8E45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6292849-979F-488F-B698-9AFF7CB8E45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6292849-979F-488F-B698-9AFF7CB8E45C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -549,6 +557,8 @@ Global
 		{8E33E8CF-A977-4E5A-B4DF-30564FF9AD1A} = {AF6C6807-B37C-488F-8A5A-DF245B58418D}
 		{BC03D4D8-242A-444B-B388-EB1985BE9E50} = {AF6C6807-B37C-488F-8A5A-DF245B58418D}
 		{6D4ED02D-8B33-40EC-9649-3D31E2CF7A62} = {AF6C6807-B37C-488F-8A5A-DF245B58418D}
+		{95FC4B36-C4B9-460C-88B2-E220106092A6} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
+		{F6292849-979F-488F-B698-9AFF7CB8E45C} = {95FC4B36-C4B9-460C-88B2-E220106092A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F56DB581-6B57-4D3A-8EB3-74EB41D3C55B}
