@@ -16,21 +16,27 @@ namespace ProjetoJogo_Xadrez
                 - 3° sera a camada de aplicação
             */
 
-            PosicaoXadrez pos = new PosicaoXadrez('c', 7);
-            Console.WriteLine(pos);
+            #region Sem uso no momento
+            //PosicaoXadrez pos = new PosicaoXadrez('c', 7);
+            //Console.WriteLine(pos);
 
-            Console.WriteLine(pos.toPosicao());
+            //Console.WriteLine(pos.toPosicao());
+            #endregion
 
             try
             {
-                #region Sem uso no momento
-                //Tabuleiro tab = new Tabuleiro(8, 8);
+                #region Usando no momento
+                Tabuleiro tab = new Tabuleiro(8, 8);
 
-                //tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
-                //tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
-                //tab.ColocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4));
+                tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
+                tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
+                tab.ColocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4));
 
-                //Tela.ImprimirTabuleiro(tab);
+                tab.ColocarPeca(new Torre(tab, Cor.Branca), new Posicao(0, 1));
+                tab.ColocarPeca(new Torre(tab, Cor.Branca), new Posicao(1, 4));
+                tab.ColocarPeca(new Rei(tab, Cor.Branca), new Posicao(2, 5));
+
+                Tela.ImprimirTabuleiro(tab);
                 #endregion
 
                 Console.WriteLine($"");
