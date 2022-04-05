@@ -1,5 +1,5 @@
 ﻿using System;
-using Tabuleiro;
+using tabuleiro;
 
 namespace ProjetoJogo_Xadrez
 {
@@ -15,9 +15,10 @@ namespace ProjetoJogo_Xadrez
                 - 3° sera a camada de aplicação
             */
 
-            Posicao p = new Posicao(3, 4);
-            Console.WriteLine($"Posição {p}");
 
+            Tabuleiro tab = new Tabuleiro(8, 8);
+
+            Console.WriteLine($"{tab}");
             Console.ReadLine();
         }
     }
