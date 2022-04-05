@@ -182,11 +182,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_Polimorfismo", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_FixacaoPolimorfismo", "Exercicio_FixacaoPolimorfismo\Exercicio_FixacaoPolimorfismo.csproj", "{2174D73B-685C-496B-AF33-694E09C21A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAbstratas", "ClassesAbstratas\ClassesAbstratas.csproj", "{C125DA27-8298-4E2C-B81B-6EE1DEC3BED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesAbstratas", "ClassesAbstratas\ClassesAbstratas.csproj", "{C125DA27-8298-4E2C-B81B-6EE1DEC3BED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosAbstratos", "MetodosAbstratos\MetodosAbstratos.csproj", "{4F35B167-34D8-421A-9807-652085971420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodosAbstratos", "MetodosAbstratos\MetodosAbstratos.csproj", "{4F35B167-34D8-421A-9807-652085971420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_AbstractFixacao", "Exercicio_AbstractFixacao\Exercicio_AbstractFixacao.csproj", "{7D9842BE-8D38-4E02-A2B1-17C99E6EA3D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_AbstractFixacao", "Exercicio_AbstractFixacao\Exercicio_AbstractFixacao.csproj", "{7D9842BE-8D38-4E02-A2B1-17C99E6EA3D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TratamentosExcecoes", "TratamentosExcecoes", "{E99D7A4E-D6D3-486D-8121-B9FFF1BBA1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excecoes", "Excecoes\Excecoes.csproj", "{663A7D36-0D0C-4500-B0C4-7D1DC39518BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcecoesPersonalizadas", "ExcecoesPersonalizadas\ExcecoesPersonalizadas.csproj", "{3D201B2E-3DA5-499A-9FDE-1D4148E8BDE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -522,6 +528,14 @@ Global
 		{7D9842BE-8D38-4E02-A2B1-17C99E6EA3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9842BE-8D38-4E02-A2B1-17C99E6EA3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9842BE-8D38-4E02-A2B1-17C99E6EA3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663A7D36-0D0C-4500-B0C4-7D1DC39518BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663A7D36-0D0C-4500-B0C4-7D1DC39518BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663A7D36-0D0C-4500-B0C4-7D1DC39518BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663A7D36-0D0C-4500-B0C4-7D1DC39518BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D201B2E-3DA5-499A-9FDE-1D4148E8BDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D201B2E-3DA5-499A-9FDE-1D4148E8BDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D201B2E-3DA5-499A-9FDE-1D4148E8BDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D201B2E-3DA5-499A-9FDE-1D4148E8BDE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -615,6 +629,9 @@ Global
 		{C125DA27-8298-4E2C-B81B-6EE1DEC3BED9} = {95FC4B36-C4B9-460C-88B2-E220106092A6}
 		{4F35B167-34D8-421A-9807-652085971420} = {95FC4B36-C4B9-460C-88B2-E220106092A6}
 		{7D9842BE-8D38-4E02-A2B1-17C99E6EA3D7} = {95FC4B36-C4B9-460C-88B2-E220106092A6}
+		{E99D7A4E-D6D3-486D-8121-B9FFF1BBA1FA} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
+		{663A7D36-0D0C-4500-B0C4-7D1DC39518BB} = {E99D7A4E-D6D3-486D-8121-B9FFF1BBA1FA}
+		{3D201B2E-3DA5-499A-9FDE-1D4148E8BDE5} = {E99D7A4E-D6D3-486D-8121-B9FFF1BBA1FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F56DB581-6B57-4D3A-8EB3-74EB41D3C55B}
