@@ -198,6 +198,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_ExcecaoFixaxao", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Vetores03", "Exercicio_Vetores03\Exercicio_Vetores03.csproj", "{545346C8-D27F-4A28-8654-6A12093A6A07}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto_JogoXadrez", "Projeto_JogoXadrez", "{0E3E32CC-3E38-48F0-8E40-A56C963B2DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoJogo_Xadrez", "ProjetoJogo_Xadrez\ProjetoJogo_Xadrez.csproj", "{AF3A54EF-5FC2-48B8-BAA8-C4FC57524294}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -548,6 +552,10 @@ Global
 		{545346C8-D27F-4A28-8654-6A12093A6A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545346C8-D27F-4A28-8654-6A12093A6A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545346C8-D27F-4A28-8654-6A12093A6A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3A54EF-5FC2-48B8-BAA8-C4FC57524294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3A54EF-5FC2-48B8-BAA8-C4FC57524294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3A54EF-5FC2-48B8-BAA8-C4FC57524294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3A54EF-5FC2-48B8-BAA8-C4FC57524294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -646,6 +654,8 @@ Global
 		{3D201B2E-3DA5-499A-9FDE-1D4148E8BDE5} = {E99D7A4E-D6D3-486D-8121-B9FFF1BBA1FA}
 		{39B0AEFB-C128-40C8-952B-048C9D92F7E9} = {E99D7A4E-D6D3-486D-8121-B9FFF1BBA1FA}
 		{545346C8-D27F-4A28-8654-6A12093A6A07} = {64085CBF-2292-4973-88EB-FC32E66B9B2D}
+		{0E3E32CC-3E38-48F0-8E40-A56C963B2DE8} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
+		{AF3A54EF-5FC2-48B8-BAA8-C4FC57524294} = {0E3E32CC-3E38-48F0-8E40-A56C963B2DE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F56DB581-6B57-4D3A-8EB3-74EB41D3C55B}
