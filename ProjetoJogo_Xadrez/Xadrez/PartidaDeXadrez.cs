@@ -34,6 +34,25 @@ namespace Xadrez
             MudaJogador();
         }
 
+        public void ValidarPosicaoDeOrigem(Posicao pos)
+        {
+            if(tab.peca(pos) == null)
+            {
+                throw new TabuleiroExeption("Não existe peça na posição de origem escolhida!");
+            }
+
+            if (jogadorAtual != tab.peca(pos).cor)
+            {
+                throw new TabuleiroExeption("A peça escolhida não é sua!");
+            }
+
+            if (!tab.peca(pos).ExisteMovimentosPossiveis())
+            {
+                throw new TabuleiroExeption("Não existe movimentos possiveis para a peça de origem escolhida!");
+            }
+            
+        }
+
         private void MudaJogador()
         {
             if (jogadorAtual == Cor.Branca)
