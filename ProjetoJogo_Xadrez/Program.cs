@@ -55,6 +55,8 @@ namespace ProjetoJogo_Xadrez
                     }
                     
                 }
+                Console.Clear();
+                Tela.ImprimirPartida(partida);
 
                 #endregion
                 Console.WriteLine($"");
