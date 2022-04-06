@@ -16,13 +16,6 @@ namespace ProjetoJogo_Xadrez
                 - 3° sera a camada de aplicação
             */
 
-            #region Sem uso no momento
-            //PosicaoXadrez pos = new PosicaoXadrez('c', 7);
-            //Console.WriteLine(pos);
-
-            //Console.WriteLine(pos.toPosicao());
-            #endregion
-
             try
             {
                 #region Usando no momento
@@ -34,7 +27,6 @@ namespace ProjetoJogo_Xadrez
                     {
                         Console.Clear();
                         Tela.ImprimirPartida(partida);
-                        
 
                         Console.WriteLine();
                         Console.Write("Origem: ");
@@ -65,7 +57,6 @@ namespace ProjetoJogo_Xadrez
                 }
 
                 #endregion
-
                 Console.WriteLine($"");
             }
             catch(TabuleiroExeption e) 
@@ -73,7 +64,6 @@ namespace ProjetoJogo_Xadrez
                 Console.WriteLine(e.Message);
             }
 
-            
             Console.ReadLine();
         }
     }

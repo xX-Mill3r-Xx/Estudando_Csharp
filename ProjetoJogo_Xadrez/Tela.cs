@@ -15,6 +15,10 @@ namespace ProjetoJogo_Xadrez
             Console.WriteLine();
             Console.WriteLine($"Turno: {partida.turno}");
             Console.WriteLine($"Aguardando jogada: {partida.jogadorAtual}");
+            if (partida.Check)
+            {
+                Console.WriteLine("Xeque");
+            }
         }
 
         public static void ImprimirPecasCapturadas(PartidaDeXadrez partida)
@@ -41,8 +45,6 @@ namespace ProjetoJogo_Xadrez
             Console.Write("]");
         }
 
-        /*--------------------------------------------------------------------------------------------------------*/
-        //Imprimir Tabuleiro
         public static void ImprimirTabuleiro(Tabuleiro tab)
         {
             for (int i = 0; i < tab.Linhas; i++)
@@ -88,8 +90,6 @@ namespace ProjetoJogo_Xadrez
             Console.BackgroundColor = fundoOriginal;
         }
 
-        /*--------------------------------------------------------------------------------------------------------*/
-        //Ler Posiçao
         public static PosicaoXadrez lerPosicaoXadrez()
         {
             string s = Console.ReadLine();
@@ -98,8 +98,6 @@ namespace ProjetoJogo_Xadrez
             return new PosicaoXadrez(coluna, linha);
         }
 
-        /*--------------------------------------------------------------------------------------------------------*/
-        //Imprimir Peça
         public static void ImprimirPeca(Peca peca)
         {
             if (peca == null)
