@@ -34,6 +34,10 @@ namespace ProjetoJogo_Xadrez
                     Tela.ImprimirTabuleiro(partida.tab);
 
                     Console.WriteLine();
+                    Console.WriteLine($"Turno: {partida.turno}");
+                    Console.WriteLine($"Aguardando jogada: {partida.jogadorAtual}");
+
+                    Console.WriteLine();
                     Console.Write("Origem: ");
                     Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
 
@@ -42,10 +46,14 @@ namespace ProjetoJogo_Xadrez
                     Tela.ImprimirTabuleiro(partida.tab, posicoesPossiveis);
 
                     Console.WriteLine();
+                    Console.WriteLine($"{partida.jogadorAtual} Jogando!");
+                    Console.WriteLine($"-----------------");
+
+                    Console.WriteLine();
                     Console.Write("Destino: ");
                     Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
 
-                    partida.ExecutaMovimento(origem, destino);
+                    partida.RealizaJogada(origem, destino);
                 }
 
                 #endregion
