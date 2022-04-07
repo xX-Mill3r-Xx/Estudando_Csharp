@@ -206,19 +206,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_Uri1035", "Exerci
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TrabalhandoComArquivos", "TrabalhandoComArquivos", "{391DD153-E609-4773-8C74-DD80F3225FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileInfoEIOExeption", "FileInfoEIOExeption\FileInfoEIOExeption.csproj", "{2D6201B9-20D6-4226-9956-8DF812ABA7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileInfoEIOExeption", "FileInfoEIOExeption\FileInfoEIOExeption.csproj", "{2D6201B9-20D6-4226-9956-8DF812ABA7DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStremEStreamReader", "FileStremEStreamReader\FileStremEStreamReader.csproj", "{35E094DA-2A34-4B93-BDC5-06E5BFE39D7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStremEStreamReader", "FileStremEStreamReader\FileStremEStreamReader.csproj", "{35E094DA-2A34-4B93-BDC5-06E5BFE39D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingBlock", "UsingBlock\UsingBlock.csproj", "{DE492957-7B73-4F5C-B949-EBE77D14A92A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingBlock", "UsingBlock\UsingBlock.csproj", "{DE492957-7B73-4F5C-B949-EBE77D14A92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterE", "StreamWriter\StreamWriterE.csproj", "{0F08E5D5-89BA-428F-8330-0F241848641A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriterE", "StreamWriter\StreamWriterE.csproj", "{0F08E5D5-89BA-428F-8330-0F241848641A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerectoryEDirectoryInfo", "DerectoryEDirectoryInfo\DerectoryEDirectoryInfo.csproj", "{769F3ED0-FB4C-42B6-BE3B-A2B0FF967160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DerectoryEDirectoryInfo", "DerectoryEDirectoryInfo\DerectoryEDirectoryInfo.csproj", "{769F3ED0-FB4C-42B6-BE3B-A2B0FF967160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathE", "PathE\PathE.csproj", "{2FEAB943-F26F-41B6-9F85-374141BE7EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathE", "PathE\PathE.csproj", "{2FEAB943-F26F-41B6-9F85-374141BE7EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Fixacao", "Exercicio_Fixacao\Exercicio_Fixacao.csproj", "{0C41A07C-F76C-48CC-A8A4-8B63CD2FBC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_Fixacao", "Exercicio_Fixacao\Exercicio_Fixacao.csproj", "{0C41A07C-F76C-48CC-A8A4-8B63CD2FBC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{485C3D8E-7730-4E89-B28B-593EF5139921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceE", "Interface\InterfaceE.csproj", "{98BA9682-84F7-47F2-8F31-3B5B5A9AAA41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -606,6 +610,10 @@ Global
 		{0C41A07C-F76C-48CC-A8A4-8B63CD2FBC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C41A07C-F76C-48CC-A8A4-8B63CD2FBC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C41A07C-F76C-48CC-A8A4-8B63CD2FBC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BA9682-84F7-47F2-8F31-3B5B5A9AAA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BA9682-84F7-47F2-8F31-3B5B5A9AAA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BA9682-84F7-47F2-8F31-3B5B5A9AAA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BA9682-84F7-47F2-8F31-3B5B5A9AAA41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -715,6 +723,8 @@ Global
 		{769F3ED0-FB4C-42B6-BE3B-A2B0FF967160} = {391DD153-E609-4773-8C74-DD80F3225FB6}
 		{2FEAB943-F26F-41B6-9F85-374141BE7EE1} = {391DD153-E609-4773-8C74-DD80F3225FB6}
 		{0C41A07C-F76C-48CC-A8A4-8B63CD2FBC75} = {391DD153-E609-4773-8C74-DD80F3225FB6}
+		{485C3D8E-7730-4E89-B28B-593EF5139921} = {6ACFC89A-4762-46CB-BAEC-F22E1A239A71}
+		{98BA9682-84F7-47F2-8F31-3B5B5A9AAA41} = {485C3D8E-7730-4E89-B28B-593EF5139921}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F56DB581-6B57-4D3A-8EB3-74EB41D3C55B}
