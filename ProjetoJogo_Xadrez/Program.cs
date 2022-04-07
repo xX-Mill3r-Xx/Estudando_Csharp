@@ -8,6 +8,7 @@ namespace ProjetoJogo_Xadrez
     {
         static void Main(string[] args)
         {
+            #region Intro
             /*
              Este sistema ira utilizar de um sistema de camadas.
                 Serão tres camadas basicas;
@@ -15,6 +16,7 @@ namespace ProjetoJogo_Xadrez
                 - 2° sera a inteligencia do jogo
                 - 3° sera a camada de aplicação
             */
+            #endregion
 
             try
             {
